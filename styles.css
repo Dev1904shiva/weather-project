@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-image 0.5s ease-in-out;
+    background-color: #f9f9f9; /* added a light gray background color */
+    margin: 0; /* removed default margin */
+    padding: 0; /* removed default padding */
+  }
+  
+  #app {
+    margin-top: 50px;
+    max-width: 800px; /* added a max width to center the content */
+    margin: 0 auto; /* centered the content horizontally */
+    padding: 20px; /* added some padding to make the content breathe */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added a subtle box shadow */
+    border-radius: 10px; /* added a subtle border radius */
+    /* ... existing styles ... */
+  background-color: #5f4bfc; /* added a white background color */
+  border: 1px solid #ddd; /* added a light gray border */
+}
+  
+  
+  #weather-info {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold; /* made the font bold to make it stand out */
+    color: #ffffff; /* changed the text color to a darker gray */
+     /* ... existing styles ... */
+  background-color: #337ab7; /* changed the background color to a blueish tone */
+  padding: 10px; /* added some padding to make the background color visible */
+  border-radius: 5px; /* added a subtle border radius */
+
+  }
+  
+  /* added some extra styles to make the website look better */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7; /* changed the link color to a blueish tone */
+    transition: color 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    color: #23527c; /* changed the link hover color to a darker blueish tone */
+  }
+  #get-weather-btn {
+    background-color: #337ab7; /* changed the background color to a blueish tone */
+    color: rgb(240, 243, 245); /* changed the text color to white */
+    border: none; /* removed the default border */
+    padding: 10px 20px; /* added some padding to make the button larger */
+    border-radius: 5px; /* added a subtle border radius */
+    cursor: pointer; /* changed the cursor to a pointer on hover */
+  }
+  
+  #get-weather-btn:hover {
+    background-color: #23527c; /* changed the background color to a darker blueish tone on hover */
+  }
